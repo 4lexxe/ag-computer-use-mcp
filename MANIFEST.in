@@ -1,0 +1,17 @@
+include README.md CHANGELOG.md CONTRIBUTING.md pyproject.toml requirements.txt
+include .gitignore
+include windows_computer_use_mcp.py overlay.py
+recursive-include src *.py
+recursive-include src *.svg *.json
+recursive-include tests *.py
+recursive-include docs *.md
+include docs/media/antigravity-in-action.gif docs/media/antigravity-in-action.mp4
+include docs/media/usage-poster.png docs/media/overlay-preview.gif
+recursive-include examples *.json
+recursive-include scripts *.py
+recursive-include .github *.yml
+global-exclude *.py[cod]
+prune .local
+prune .venv
+prune .pytest_cache
+prune .ruff_cache

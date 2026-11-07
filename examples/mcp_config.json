@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "windows-computer-use": {
+      "command": "C:/ruta/al/proyecto/.venv/Scripts/python.exe",
+      "args": ["-m", "windows_computer_use"]
+    }
+  }
+}

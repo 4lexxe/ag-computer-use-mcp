@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "windows-computer-use": {
+      "command": "C:/ruta/al/python.exe",
+      "args": ["C:/ruta/al/proyecto/windows_computer_use_mcp.py"]
+    }
+  }
+}

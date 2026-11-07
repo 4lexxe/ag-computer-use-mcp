@@ -1,0 +1,2 @@
+# Compatibility with pip install -r requirements.txt; dependencies live in pyproject.toml.
+.
